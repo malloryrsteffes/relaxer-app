@@ -5,7 +5,7 @@
 }
 
 body {
-  background: #224941 url("./img/bg.jpg") no-repeat center center/cover;
+  background: #224941 no-repeat center center/cover;
   color: #fff;
   font-family: "BioRhyme", sans-serif;
   min-height: 100vh;
@@ -17,7 +17,27 @@ body {
   font-size: 1.2rem;
   padding-top: 10%;
 }
-
+.theme-switcher {
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: inline-block;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 14px 24px;
+  border: none;
+  transition: box-shadow 0.2s ease 0s, -ms-transform 0.1s ease 0s,
+    -webkit-transform 0.1s ease 0s, transform 0.1s ease 0s;
+  background: transparent;
+  color: #336d62;
+}
+.theme-switcher:hover {
+  color: #fff;
+}
 .container {
   display: flex;
   align-items: center;
@@ -107,5 +127,28 @@ body {
   }
   to {
     transform: scale(1);
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 33%;
+  }
+  .container {
+    height: 150px;
+    width: 150px;
+  }
+  .pointer-container {
+    top: -20px;
+    left: 70px;
+    width: 10px;
+    height: 95px;
+  }
+  .pointer {
+    width: 10px;
+    height: 10px;
+  }
+  .theme-switcher {
+    font-size: 12px;
   }
 }
