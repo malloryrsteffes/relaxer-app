@@ -11,6 +11,7 @@ A relaxing breathing app with a visual director to tell you when to breathe in, 
 
 ## Photo Credits
 Photos by:
+
 [Marita Kavelashvili on Unsplash](https://unsplash.com/@maritafox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 [Davies Designs Studio on Unsplash](https://unsplash.com/@davies_designs?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
